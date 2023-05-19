@@ -9,12 +9,12 @@
 | sudo service ufw status               | Verifica o status do serviço UFW (firewall)                               |
 | sudo service ssh status               | Verifica o status do serviço SSH                                          |
 | uname -v                              | Exibe informações sobre a versão do sistema operacional                    |
-| groups luide-so                       | Verifica os grupos aos quais um usuário pertence                           |
-| sudo adduser name_user                | Cria um novo usuário no sistema                                           |
+| groups luide-so                       | Verifica os grupos aos quais um utilizador pertence                           |
+| sudo adduser name_user                | Cria um novo utilizador no sistema                                           |
 | sudo addgroup evaluating              | Cria um novo grupo no sistema                                             |
 | sudo groupdel nome_do_grupo           | Remove um grupo do sistema                                                |
-| sudo adduser name_user evaluating     | Adiciona um usuário a um grupo específico                                 |
-| sudo adduser name_user sudo           | Adiciona um usuário ao grupo "sudo" (privilégios de superusuário)          |
+| sudo adduser name_user evaluating     | Adiciona um utilizador a um grupo específico                                 |
+| sudo adduser name_user sudo           | Adiciona um utilizador ao grupo "sudo" (privilégios de superutilizador)       |
 | hostname                              | Exibe ou define o nome do host (nome do computador)                       |
 | sudo nano /etc/hostname               | Edita o arquivo de configuração do nome do host                           |
 | sudo nano /etc/hosts                  | Edita o arquivo de configuração do sistema de resolução de nomes (DNS)     |
@@ -27,4 +27,5 @@
 | ssh newuser@localhost -p 4242         | Conecta-se a "localhost" como "newuser" usando a porta 4242 via SSH        |
 | crontab -e                            | Abre o editor para editar as tarefas cron                                 |
 | sudo systemctl enable cron            | Habilita o serviço cron para iniciar no boot                              |
-| sudo systemctl disable cron           | Desabilita o serviço cron para
+| sudo systemctl disable cron           | Desabilita o serviço cron para                                             |
+| chage -l <nome_do_utilizador>           | Exibe informações sobre o utilizador                              |
