@@ -22,8 +22,9 @@
 | dpkg -s sudo                          | Verifica o status da instalação do pacote "sudo"                          |
 | dpkg -s ufw                           | Verifica o status da instalação do pacote "ufw"                           |
 | nano /etc/sudoers.d/sudo_config       | Edita as configurações do sudo                                             |
-| sudo nano /etc/pam.d/common-password  | Edita as configurações de senha comuns do PAM (Módulo de Autenticação Pluggable) |
 | sudo visudo                           | Edita o arquivo sudoers com segurança                                     |
+| sudo nano /etc/pam.d/common-password  | Edita as configurações de senha comuns do PAM (Módulo de Autenticação Pluggable) |
+| sudo nano /etc/login.defs             | Edita as configurações de senha                                             |
 | ssh newuser@localhost -p 4242         | Conecta-se a "localhost" como "newuser" usando a porta 4242 via SSH        |
 | crontab -e                            | Abre o editor para editar as tarefas cron                                 |
 | sudo systemctl enable cron            | Habilita o serviço cron para iniciar no boot                              |
