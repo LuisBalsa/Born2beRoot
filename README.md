@@ -30,3 +30,9 @@
 | sudo systemctl enable cron            | Habilita o serviço cron para iniciar no boot                              |
 | sudo systemctl disable cron           | Desabilita o serviço cron para                                             |
 | chage -l <nome_do_utilizador>           | Exibe informações sobre o utilizador                              |
+
+
+1) Comparar a assinatura
+    shasum born2beroot.vdi
+    colocar a assinatura no test.txt
+    diff signature.txt test.txt
