@@ -32,10 +32,13 @@
 | chage -l <nome_do_utilizador>           | Exibe informações sobre o utilizador                              |
 
 
-1) Comparar a assinatura
+### Comparar a assinatura
 
-    `shasum born2beroot.vdi`
+- Criar a assinatura
 
-    > colocar a assinatura no test.txt
+`shasum born2beroot.vdi`
+
+- Colocar a assinatura no test.txt
     
-    `diff signature.txt test.txt`
+`diff signature.txt test.txt`
+
