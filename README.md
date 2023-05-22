@@ -33,6 +33,9 @@
 
 
 1) Comparar a assinatura
+
     shasum born2beroot.vdi
+
     colocar a assinatura no test.txt
+    
     diff signature.txt test.txt
