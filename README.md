@@ -18,6 +18,7 @@
 | hostname                              | Exibe ou define o nome do host (nome do computador)                       |
 | sudo nano /etc/hostname               | Edita o arquivo de configuração do nome do host                           |
 | sudo nano /etc/hosts                  | Edita o arquivo de configuração do sistema de resolução de nomes (DNS)     |
+| hostnamectl set-hostname <novo nome>  | Altera o nome do hostname                                                  |
 | which sudo                            | Exibe o caminho completo para o executável do comando "sudo"               |
 | dpkg -s sudo                          | Verifica o status da instalação do pacote "sudo"                          |
 | dpkg -s ufw                           | Verifica o status da instalação do pacote "ufw"                           |
